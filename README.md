@@ -1,6 +1,6 @@
 <div align="center">
 
-# 💊 Farmacia · Inventario y Facturación
+# Farmacia · Inventario y Facturación
 
 ### Aplicación web para el control de medicamentos, ventas y reportes de una farmacia, diseñada con criterios de usabilidad y accesibilidad
 
@@ -15,20 +15,20 @@
 
 ---
 
-## 📖 Descripción
+## Descripción
 
 Sistema web para farmacias que integra **inventario de medicamentos**, **registro de ventas** y **reportes financieros** en un dashboard con gráficos. El proyecto se desarrolló en la asignatura **Usabilidad**, por lo que la interfaz prioriza navegación por teclado, formularios con validación y mensajes claros, y un diseño responsive.
 
-## ✨ Funcionalidades
+## Funcionalidades
 
-- 🔐 **Autenticación con JWT** y contraseñas cifradas con **bcrypt**; roles: administrador, farmacéutico y vendedor.
-- 💊 **Medicamentos:** registro, listado, valor total del inventario y **alertas de vencimiento**.
-- 🧾 **Ventas:** registro de ventas y resumen de ventas del día.
-- 📊 **Reportes:** inventario, ventas, reporte financiero y productos más vendidos.
-- 📈 **Dashboard** con gráficos interactivos (Chart.js).
-- 👥 **Usuarios:** administración completa de cuentas.
+- **Autenticación con JWT** y contraseñas cifradas con **bcrypt**; roles: administrador, farmacéutico y vendedor.
+- **Medicamentos:** registro, listado, valor total del inventario y **alertas de vencimiento**.
+- **Ventas:** registro de ventas y resumen de ventas del día.
+- **Reportes:** inventario, ventas, reporte financiero y productos más vendidos.
+- **Dashboard** con gráficos interactivos (Chart.js).
+- **Usuarios:** administración completa de cuentas.
 
-## 🏗️ Arquitectura
+## Arquitectura
 
 ```mermaid
 flowchart LR
@@ -51,7 +51,7 @@ flowchart LR
     └── js/                # Un módulo por pantalla
 ```
 
-## 🔌 API
+## API
 
 | Método | Ruta | Descripción |
 |---|---|---|
@@ -64,7 +64,7 @@ flowchart LR
 | GET | `/api/reportes/inventario` · `/ventas` · `/financiero` · `/mas-vendidos` | Reportes |
 | GET · POST · PUT · DELETE | `/api/usuarios` | Gestión de usuarios |
 
-## 🚀 Ejecución local
+## Ejecución local
 
 ```bash
 cd backend
@@ -73,7 +73,7 @@ cp .env.example .env      # configurar MONGO_URI y JWT_SECRET
 npm run dev               # http://localhost:3000
 ```
 
-## 👤 Autor
+## Autor
 
 **Marco Adrián Padilla Triviño** · Estudiante de Ingeniería de Software, Universidad de las Fuerzas Armadas ESPE
 
