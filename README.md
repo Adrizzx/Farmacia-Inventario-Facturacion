@@ -17,7 +17,7 @@
 
 ## 📖 Descripción
 
-Sistema web para farmacias que integra **inventario de medicamentos**, **registro de ventas** y **reportes financieros** en un dashboard con gráficos. El proyecto se desarrolló en la asignatura **Usabilidad y Accesibilidad**, por lo que la interfaz prioriza navegación por teclado, formularios con validación y mensajes claros, y un diseño responsive.
+Sistema web para farmacias que integra **inventario de medicamentos**, **registro de ventas** y **reportes financieros** en un dashboard con gráficos. El proyecto se desarrolló en la asignatura **Usabilidad**, por lo que la interfaz prioriza navegación por teclado, formularios con validación y mensajes claros, y un diseño responsive.
 
 ## ✨ Funcionalidades
 
