@@ -1,0 +1,85 @@
+/* Fondo especial para login */
+.login-bg {
+  background: linear-gradient(120deg, #e3f0ff 60%, #f8f9fa 100%), url('img/bg-pharmacy.jpg') center/cover no-repeat;
+  min-height: 100vh;
+}
+/* styles.css - Estilos personalizados para el sistema de farmacia */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(120deg, #f8f9fa 60%, #e3f0ff 100%);
+  min-height: 100vh;
+}
+.sidebar {
+  min-height: 100vh;
+  border-right: 1px solid #dee2e6;
+  background: #f4f8fb;
+}
+.nav-link.active, .nav-link:focus {
+  font-weight: bold;
+  color: #0d6efd !important;
+  background: #e3f0ff;
+  border-radius: 0.5rem;
+}
+.card {
+  border-radius: 1rem;
+  box-shadow: 0 4px 24px 0 rgba(0,0,0,0.07);
+}
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.card-text {
+  font-size: 1.2rem;
+}
+.table th, .table td {
+  vertical-align: middle;
+}
+.table thead {
+  font-size: 1.05rem;
+}
+.btn:focus, .form-control:focus, .form-select:focus {
+  box-shadow: 0 0 0 0.2rem rgba(13,110,253,.25);
+}
+[tabindex]:focus {
+  outline: 2px solid #0d6efd;
+}
+.navbar {
+  box-shadow: 0 2px 8px 0 rgba(13,110,253,.08);
+}
+.sidebar .nav-link {
+  margin-bottom: 0.5rem;
+  transition: background 0.2s;
+}
+.sidebar .nav-link:hover {
+  background: #e3f0ff;
+  color: #0d6efd !important;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+  background-color: #f4f8fb;
+}
+.table-hover tbody tr:hover {
+  background-color: #e3f0ff;
+}
+.btn-primary, .btn-success, .btn-info, .btn-warning, .btn-dark {
+  border-radius: 0.5rem;
+  font-weight: 500;
+}
+.btn-outline-primary, .btn-outline-success, .btn-outline-info, .btn-outline-warning, .btn-outline-dark {
+  border-radius: 0.5rem;
+}
+.form-control, .form-select {
+  border-radius: 0.5rem;
+}
+.modal-content {
+  border-radius: 1rem;
+}
+.h2, h2, h1 {
+  font-weight: 700;
+  color: #0d6efd;
+}
+.lead {
+  color: #495057;
+}
+.alert-danger {
+  border-radius: 0.5rem;
+}
